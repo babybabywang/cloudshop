@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: cloud-config-git-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/babybabywang/SpringCloudConfig
+          search-paths:
+          username: babybabywang
+          password: huang19960505
+          default-label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer3:8002/eureka/,http://peer2:8001/eureka/,http://peer1:8000/eureka/
