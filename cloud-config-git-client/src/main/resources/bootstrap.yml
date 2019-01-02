@@ -1,0 +1,16 @@
+#解决config客户端默认访问端口8888的问题
+spring:
+  application:
+    name: cloud-config-git-client
+  cloud:
+    config:
+      name: hsm
+      profile: dev
+      uri: http://localhost:8007/
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer3:8002/eureka/,http://peer2:8001/eureka/,http://peer1:8000/eureka/
+server:
+  port: 8008

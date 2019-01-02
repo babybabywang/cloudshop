@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-git" />
+        <module name="cloud-config-git-client" />
         <module name="cloud-eureka-server" />
         <module name="cloud-service-consumer" />
         <module name="cloud-service-provider" />
@@ -15,6 +17,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-config-git" options="-parameters" />
+      <module name="cloud-config-git-client" options="-parameters" />
       <module name="cloud-eureka-server" options="-parameters" />
       <module name="cloud-service-consumer" options="-parameters" />
       <module name="cloud-service-provider" options="-parameters" />

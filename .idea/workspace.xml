@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18431200-a850-4663-b4bf-d67de2a934aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-git-client/src/main/java/com/huangsm/cloud/cloudeurekaserver/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-git-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-git/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/cloud-service-provider/target/" />
     <ignored path="$PROJECT_DIR$/cloud-service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-git/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-git-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,64 +30,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/Application.java">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-              <folding>
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="276">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -95,8 +51,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="368">
-                <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="297">
+                <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -104,41 +60,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java">
+        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="19" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git-client/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConfigClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git-client/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="299">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
+              <caret line="13" column="96" selection-start-line="13" selection-start-column="96" selection-end-line="13" selection-end-column="96" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="313">
+              <caret line="23" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="96" selection-start-line="3" selection-end-line="6" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -178,6 +157,15 @@
         <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-config-git/src/main/java/com/huangsm/cloud/cloudeurekaserver/CloudEurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-config-git-client/src/main/java/com/huangsm/cloud/cloudeurekaserver/HelloController.java" />
+        <option value="$PROJECT_DIR$/cloud-config-git/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-git-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-git/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-git/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-git/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-config-git-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-git-client/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -200,11 +188,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-shop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-config-git" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-shop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-config-git" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -212,10 +200,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="686" />
+    <option name="y" value="34" />
+    <option name="width" value="1206" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -235,52 +223,68 @@
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudeurekaserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloudeurekaserver" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -298,7 +302,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-service-consumer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-git-client" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,6 +315,8 @@
       <recent name="com.huangsm.cloud.cloudeurekaserver.hystrix" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-config-git-client\src\main\resources" />
+      <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-config-git\src\main\resources" />
       <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-eureka-server\src\main\resources" />
     </key>
   </component>
@@ -326,7 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="cloud-service-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangsm.cloud.cloudeurekaserver.Application" />
@@ -339,6 +345,32 @@
       <module name="cloud-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangsm.cloud.cloudeurekaserver.CloudEurekaServerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huangsm.cloud.cloudeurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangsm.cloud.cloudeurekaserver.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-git-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huangsm.cloud.cloudeurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangsm.cloud.cloudeurekaserver.ConfigClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,7 +393,15 @@
       <item itemvalue="Spring Boot.CloudEurekaServerApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -373,7 +413,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546410987862</updated>
-      <workItem from="1546410991382" duration="9180000" />
+      <workItem from="1546410991382" duration="11658000" />
     </task>
     <task id="LOCAL-00001" summary="1.eureka集群">
       <created>1546414703555</created>
@@ -389,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546417486856</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4.服务监控中心">
+      <created>1546420614805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546420614805</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9180000" />
+    <option name="totallyTimeSpent" value="11658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,7 +459,7 @@
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" sideWeight="0.50082916" side_tool="true" weight="0.13006397" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.1663113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.13006397" />
       <window_info anchor="bottom" id="Docker" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -424,7 +471,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4844098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +492,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.eureka集群" />
     <MESSAGE value="2.服务提供者&#10;3.服务消费者" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.服务提供者&#10;3.服务消费者" />
+    <MESSAGE value="4.服务监控中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.服务监控中心" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -466,13 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" selection-start-line="4" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -572,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -600,13 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -633,11 +660,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="13" selection-start-line="4" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.0.RC3/spring-cloud-config-server-2.1.0.RC3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.0.RC3/spring-cloud-config-server-2.1.0.RC3.jar!/org/springframework/cloud/config/server/EnableConfigServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.1.0.RC3/spring-cloud-config-server-2.1.0.RC3.jar!/org/springframework/cloud/config/server/config/ConfigServerConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.1.RELEASE/spring-boot-dependencies-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="524" column="12" selection-start-line="524" selection-start-column="12" selection-end-line="524" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git-client/src/main/java/com/huangsm/cloud/cloudeurekaserver/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git-client/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="96" selection-start-line="3" selection-end-line="6" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="23" column="21" selection-start-line="20" selection-start-column="8" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="96" selection-start-line="13" selection-start-column="96" selection-end-line="13" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="368">
-            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <first_editor relative-caret-position="297">
+            <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           </first_editor>
           <second_editor />
         </state>

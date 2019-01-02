@@ -15,3 +15,10 @@
 5. 添加spring-cloud-starter-netflix-hystrix-dashboard依赖，使用@EnableHystrixDashboard注解开启熔断监控
 6. 熔断监控集群使用Turbine(公司网络爆炸，idea无法一步创建springboot项目，后期整合)
 
+**四.cloud-config-git配置中心**
+1. git方式的配置中心的服务中心
+2. 引入依赖，配置git信息可以在线读取git仓库中的配置文件
+3. 配置中心的高可用，引入eureka客户端,可以配置多个配置中心
+4. cloud-config-git-client配置中心客户端，可读取配置文件中的信息，需要在bootstrap中配置config的server地址，因为bootstrap配置最先加载，如果在application中配置会默认访问端口为8888的配置中心server
+
+

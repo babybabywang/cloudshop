@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/cloud-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-git/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-git-client/pom.xml" />
       </list>
     </option>
   </component>
