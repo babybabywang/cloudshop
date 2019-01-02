@@ -1,5 +1,6 @@
-package com.huangsm.cloud.cloudeurekaserver.hystrix;
+package com.huangsm.cloud.cloudeurekaserver.hystrix.feign;
 
+import com.huangsm.cloud.cloudeurekaserver.hystrix.HelloHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @PROJECT_NAME cloudshop
  * @date 2019/1/2
  */
-@FeignClient(value = "SERVICE-PROVIDER-HELLOWORLD")
+@FeignClient(value = "SERVICE-PROVIDER-HELLOWORLD",fallback = HelloHystrix.class)
 public interface HelloFeign {
     @GetMapping(value = "/hello/{name}")
     public String hello(@PathVariable("name") String name);

@@ -7,3 +7,12 @@ eureka:
       defaultZone: http://peer3:8002/eureka/,http://peer2:8001/eureka/,http://peer1:8000/eureka/
 server:
   port: 9001
+feign:
+  hystrix:
+    enabled: true
+#解决http://localhost:9000/actuator/hystrix.stream无法访问的问题
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

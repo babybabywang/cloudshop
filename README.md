@@ -11,4 +11,7 @@
 1. 首先开启服务发现，连接eureka注册中心集群
 2. 通过feign的方式来调用远程服务
 3. openfeign是feign和rabbion的结合，默认开启负载均衡(轮询算法)
+4. hystrix断路器使用（详细代码参考HelloHystrix），配置文件中的feign.hystrix.enable=true开启断路器
+5. 添加spring-cloud-starter-netflix-hystrix-dashboard依赖，使用@EnableHystrixDashboard注解开启熔断监控
+6. 熔断监控集群使用Turbine(公司网络爆炸，idea无法一步创建springboot项目，后期整合)
 

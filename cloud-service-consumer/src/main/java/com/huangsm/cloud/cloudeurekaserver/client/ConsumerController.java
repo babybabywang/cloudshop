@@ -1,6 +1,6 @@
 package com.huangsm.cloud.cloudeurekaserver.client;
 
-import com.huangsm.cloud.cloudeurekaserver.hystrix.HelloFeign;
+import com.huangsm.cloud.cloudeurekaserver.hystrix.feign.HelloFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
