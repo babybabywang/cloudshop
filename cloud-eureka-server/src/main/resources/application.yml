@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: peer3
+#eureka:
+#  client:
+#    fetch-registry: false
+#    register-with-eureka: false
