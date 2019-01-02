@@ -21,4 +21,5 @@
 3. 配置中心的高可用，引入eureka客户端,可以配置多个配置中心
 4. cloud-config-git-client配置中心客户端，可读取配置文件中的信息，需要在bootstrap中配置config的server地址，因为bootstrap配置最先加载，如果在application中配置会默认访问端口为8888的配置中心server
 
-
+**五.cloud-gateway-zuul网关**
+1. zuul入门篇，引入eureka客户端，zuul依赖，通过@EnableZuulProxy注解开启zuul网关，在通过配置进行了路由转发

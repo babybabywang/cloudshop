@@ -16,6 +16,11 @@
     </parent>
     <modules>
         <module>cloud-eureka-server</module>
+        <module>cloud-service-provider</module>
+        <module>cloud-service-consumer</module>
+        <module>cloud-config-git</module>
+        <module>cloud-config-git-client</module>
+        <module>cloud-gateway-zull</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
