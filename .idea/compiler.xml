@@ -10,6 +10,7 @@
         <module name="cloud-config-git-client" />
         <module name="cloud-eureka-server" />
         <module name="cloud-gateway-zull" />
+        <module name="cloud-security-oauth2" />
         <module name="cloud-service-consumer" />
         <module name="cloud-service-provider" />
         <module name="cloudshop" />
@@ -22,6 +23,7 @@
       <module name="cloud-config-git-client" options="-parameters" />
       <module name="cloud-eureka-server" options="-parameters" />
       <module name="cloud-gateway-zull" options="-parameters" />
+      <module name="cloud-security-oauth2" options="-parameters" />
       <module name="cloud-service-consumer" options="-parameters" />
       <module name="cloud-service-provider" options="-parameters" />
       <module name="cloudshop" options="-parameters" />

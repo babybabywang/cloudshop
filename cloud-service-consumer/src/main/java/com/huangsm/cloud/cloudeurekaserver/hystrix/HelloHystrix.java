@@ -16,4 +16,9 @@ public class HelloHystrix implements HelloFeign {
     public String hello(String name) {
         return "哦~~服务短路了。。";
     }
+
+    @Override
+    public String getUser(String username) {
+        return "短路了";
+    }
 }

@@ -23,3 +23,6 @@
 
 **五.cloud-gateway-zuul网关**
 1. zuul入门篇，引入eureka客户端，zuul依赖，通过@EnableZuulProxy注解开启zuul网关，在通过配置进行了路由转发
+
+**六.cloud-security-oauth2**
+1. github授权登录，需要在github中创建一个oauth应用，拿到client_id和secret在配置文件中配置就可以使用了

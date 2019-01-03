@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18431200-a850-4663-b4bf-d67de2a934aa" name="Default Changelist" comment="6.zuul网关">
-      <change afterPath="$PROJECT_DIR$/.idea/cloudshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/src/main/java/com/huangsm/cloud/cloudeurekaserver/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-zull/src/test/java/com/huangsm/cloud/cloudeurekaserver/ZuulApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/service/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-security-oauth2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-security-oauth2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/Oauth2Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/Oauth2Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/OAuth2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-security-oauth2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-security-oauth2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +28,7 @@
     <ignored path="$PROJECT_DIR$/cloud-config-git/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-git-client/target/" />
     <ignored path="$PROJECT_DIR$/cloud-gateway-zull/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-security-oauth2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,40 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/service/MyUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-gateway-zull/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="200">
-                <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="299">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,41 +53,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-gateway-zull/src/main/java/com/huangsm/cloud/cloudeurekaserver/ZuulApplication.java">
+        <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/Oauth2Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="473">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#748#749#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/java/com/huangsm/cloud/cloudeurekaserver/CloudEurekaServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="474">
+                <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="312">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="96" />
+            <state relative-caret-position="314">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="27" column="21" selection-start-line="20" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,12 +144,9 @@
         <option value="$PROJECT_DIR$/cloud-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/Application.java" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/CloudEurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java" />
         <option value="$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/cloud-service-provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloFeign.java" />
-        <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java" />
-        <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java" />
@@ -166,8 +163,24 @@
         <option value="$PROJECT_DIR$/cloud-gateway-zull/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway-zull/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-gateway-zull/src/main/java/com/huangsm/cloud/cloudeurekaserver/CloudEurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-gateway-zull/src/main/java/com/huangsm/cloud/cloudeurekaserver/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/OAuth2Config.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java" />
+        <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/handler/MyAuthenticationFailHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/MyResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/handler/MyAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/service/MyUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/Oauth2Application.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-security-oauth2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -191,11 +204,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-config-git" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-security-oauth2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-config-git" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cloud-security-oauth2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -203,10 +216,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="409" />
-    <option name="y" value="28" />
-    <option name="width" value="1303" />
-    <option name="height" value="906" />
+    <option name="x" value="464" />
+    <option name="y" value="255" />
+    <option name="width" value="1206" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -226,25 +238,25 @@
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway-zull" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway-zull" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway-zull" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway-zull" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -252,7 +264,7 @@
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway-zull" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -261,15 +273,41 @@
             <path>
               <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway-zull" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudeurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloudeurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-security-oauth2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudshop" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-consumer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,7 +317,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-gateway-zull" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud-login-system" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -288,13 +326,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.huangsm.cloud.cloudeurekaserver.hystrix" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-security-oauth2\src\main\java\com\huangsm\cloud\cloudeurekaserver\config" />
+      <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-security-oauth2\src\main\java\com\huangsm\cloud\cloudeurekaserver\handler" />
       <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-config-git-client\src\main\resources" />
       <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-config-git\src\main\resources" />
       <recent name="C:\Users\h1261\Desktop\cloudshop\cloud-eureka-server\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.huangsm.cloud.cloudeurekaserver.hystrix" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -309,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Oauth2Application">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="cloud-service-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangsm.cloud.cloudeurekaserver.Application" />
@@ -367,6 +407,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Oauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-security-oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangsm.cloud.cloudeurekaserver.Oauth2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-gateway-zull" />
       <extension name="coverage">
@@ -387,6 +434,7 @@
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.Oauth2Application" />
     </list>
     <recent_temporary>
       <list>
@@ -434,7 +482,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14491000" />
+    <option name="totallyTimeSpent" value="26901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,10 +494,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.21465296" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.13006397" />
       <window_info id="Web" order="2" sideWeight="0.50082916" side_tool="true" weight="0.13006397" />
       <window_info id="Designer" order="3" />
@@ -457,25 +505,25 @@
       <window_info id="Favorites" order="5" sideWeight="0.50082916" side_tool="true" weight="0.13006397" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329602" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48339975" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36414254" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" weight="0.32962137" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962137" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289941" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Spring" order="10" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32962137" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.3289941" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31360948" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32934928" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32962137" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.5401396" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
@@ -494,22 +542,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-dependencies/Greenwich.RC2/spring-cloud-dependencies-Greenwich.RC2.pom" />
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application-peer3.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application-peer1.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RC3/spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.0.RC3/spring-cloud-netflix-eureka-client-2.1.0.RC3.jar!/org/springframework/cloud/netflix/eureka/EnableEurekaClient.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RC2/spring-cloud-commons-2.1.0.RC2.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class" />
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application-peer2.yml">
@@ -533,67 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,13 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -708,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/java/com/huangsm/cloud/cloudeurekaserver/CloudEurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -740,11 +701,233 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/OAuth2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-provider/src/main/java/com/huangsm/cloud/cloudeurekaserver/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="68" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/HelloHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/client/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/src/main/java/com/huangsm/cloud/cloudeurekaserver/hystrix/feign/HelloFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE.jar!/org/springframework/security/oauth2/provider/token/AuthorizationServerTokenServices.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="27" column="21" selection-start-line="20" selection-start-column="7" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.2.RELEASE/spring-security-core-5.1.2.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/handler/MyAuthenticationFailHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE.jar!/org/springframework/security/oauth2/provider/ClientDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/MyResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/handler/MyAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/service/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/Oauth2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/java/com/huangsm/cloud/cloudeurekaserver/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-security-oauth2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="200">
-            <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <first_editor relative-caret-position="474">
+            <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
           </first_editor>
           <second_editor />
         </state>
@@ -790,7 +973,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -802,11 +985,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-gateway-zull</last-edited>
+          <last-edited>cloud-security-oauth2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

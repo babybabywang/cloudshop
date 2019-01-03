@@ -21,4 +21,8 @@ public class ConsumerController {
     public String hello(@PathVariable("name") String name){
       return   helloFeign.hello(name);
     }
+    @GetMapping("/password/{username}")
+    public String getUser(@PathVariable("username") String username){
+       return helloFeign.getUser(username);
+    }
 }
