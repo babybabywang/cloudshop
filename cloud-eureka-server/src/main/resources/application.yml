@@ -1,9 +1,17 @@
+
 spring:
   application:
     name: eureka-server
-  profiles:
-    active: peer2
-#eureka:
-#  client:
-#    fetch-registry: false
-#    register-with-eureka: false
+#  profiles:
+#    active: peer2
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8009/eureka/
+  instance:
+    hostname: locahost
+
+server:
+  port: 8009

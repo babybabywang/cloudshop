@@ -2,12 +2,7 @@ package com.huangsm.cloud.cloudeurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.security.Principal;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * oauth2
@@ -16,20 +11,11 @@ import java.security.Principal;
  */
 
 @SpringBootApplication
-@RestController
+@EnableEurekaClient
 public class Oauth2Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Oauth2Application.class, args);
-	}
-	@GetMapping("/welcome")
-	public String welcome() {
-		return "welcome";
-	}
-
-	@RequestMapping("/user")
-	public Principal user(Principal user) {
-		return user;
 	}
 
 }

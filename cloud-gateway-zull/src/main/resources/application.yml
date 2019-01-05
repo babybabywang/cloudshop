@@ -6,11 +6,28 @@ server:
 
 zuul:
   routes:
+    uaa:
+      path: /uaa/**
+      sensitiveHeaders: "*"
+      serviceId: AUTH-SERVICE
     api-a:
-      path: /producer/**
-      serviceId: service-provider-helloworld
+      path: /api/**
+      sensitiveHeaders: "*"
+      serviceId: service-consumer-helloworld
+  host:
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 60000
 
 eureka:
   client:
     service-url:
-      defaultZone: http://peer3:8002/eureka/,http://peer2:8001/eureka/,http://peer1:8000/eureka/
+      defaultZone: http://localhost:8009/eureka/
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:${server.port}/uaa/oauth/token
+      user-authorization-uri: http://localhost:${server.port}/uaa/oauth/authorize
+      client-id: client_1
+    resource:
+      user-info-uri: http://localhost:${server.port}/uaa/user
+      prefer-token-info: false

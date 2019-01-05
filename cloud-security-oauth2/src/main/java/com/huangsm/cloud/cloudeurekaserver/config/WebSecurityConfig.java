@@ -1,34 +1,98 @@
 package com.huangsm.cloud.cloudeurekaserver.config;
 
-import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
+import com.huangsm.cloud.cloudeurekaserver.handler.MyAccessDeniedHandler;
+import com.huangsm.cloud.cloudeurekaserver.service.MyUserDetailsService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.builders.WebSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 
 /**
- * Created by Mr.Yangxiufeng on 2017/12/27.
- * Time:16:42
- * ProjectName:Mirco-Service-Skeleton
+ * SpringSecurity配置类
+ * @author huangsm
+ * @version V1.0
  */
 @Configuration
-@EnableOAuth2Sso
+@EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
+
+    @Autowired
+    private MyAccessDeniedHandler myAccessDeniedHandler;
+
+    @Autowired
+    private MyUserDetailsService userDetailsService;
+
+    /**
+     * 定义安全策略
+     * @param http
+     * @throws Exception
+     */
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
         http.
-                antMatcher("/**")
-                // 所有请求都得经过认证和授权
-                .authorizeRequests().anyRequest().authenticated()
-                .and().authorizeRequests().antMatchers("/","/anon","/welcome").permitAll()
+                //配置安全策略
+                authorizeRequests()
+                .anyRequest().authenticated()
                 .and()
-                // 这里之所以要禁用csrf，是为了方便。
-                // 否则，退出链接必须要发送一个post请求，请求还得带csrf token
-                // 那样我还得写一个界面，发送post请求
                 .csrf().disable()
-                // 退出的URL是/logout
-                .logout().logoutUrl("/logout").permitAll()
-                // 退出成功后，跳转到/路径。
-                .logoutSuccessUrl("/welcome");
+                .exceptionHandling()
+                .accessDeniedHandler(myAccessDeniedHandler);
+    }
+
+    /**
+     * 定义认证用户信息获取来源，密码校验规则等
+     * @param auth
+     * @throws Exception
+     */
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        /**
+         * 有以下几种方式，使用第三种
+         * inMemoryAuthentication()从内存中获取
+         * jdbcAuthentication从数据库中获取，但是默认是以security提供的表结构
+         */
+        auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder());
+    }
+
+
+    /**
+     * 配置那些页面和请求不需要验证
+     * @param web
+     * @throws Exception
+     */
+    @Override
+    public void configure(WebSecurity web) throws Exception {
+        super.configure(web);
+    }
+
+    /**
+     * 自定义密码验证方式
+     * @return
+     */
+    @Bean
+    public BCryptPasswordEncoder bCryptPasswordEncoder(){
+        return new BCryptPasswordEncoder();
+    }
+
+
+    /**
+     * 定义认证管理器
+     * 不定义没有password grant_type
+     * @return
+     * @throws Exception
+     */
+    @Bean
+    @Override
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
     }
 }

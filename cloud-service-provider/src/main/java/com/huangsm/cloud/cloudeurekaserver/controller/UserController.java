@@ -21,4 +21,5 @@ public class UserController {
     public String getUser(@PathVariable("username") String username){
         return username;
     }
+
 }
