@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @PACKAGE_NAME com.huangsm.cloud.cloudeurekaserver.hystrix
  * @PROJECT_NAME cloudshop
  * @date 2019/1/2
+ * @version V1.0
  */
 @FeignClient(value = "SERVICE-PROVIDER-HELLOWORLD",fallback = HelloHystrix.class)
 @Component

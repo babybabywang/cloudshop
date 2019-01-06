@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
+import javax.ws.rs.GET;
+
 /**
  * zuul网关
  * @author huangsm
@@ -21,6 +23,7 @@ public class ZuulApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ZuulApplication.class, args);
 	}
+
 
 }
 

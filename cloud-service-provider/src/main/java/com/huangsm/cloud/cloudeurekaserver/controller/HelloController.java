@@ -17,6 +17,7 @@ public class HelloController {
     @Value("${server.port}")
     private String port;
 
+
     @GetMapping(value = "/hello/{name}")
     public String hello(@PathVariable("name") String name){
         return "hello:"+name+":"+port;

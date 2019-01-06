@@ -15,9 +15,15 @@ management:
     web:
       exposure:
         include: "*"
+
 security:
   oauth2:
+    client:
+      client-id: client_1
+      client-secret: 123
+      user-authorization-uri: http://localhost:9999/oauth/authorize
+      access-token-uri: http://localhost:9999/oauth/token
+      scope: app
     resource:
-      id: service-consumer-helloworld
-      user-info-uri: http://localhost:9999/user
-      prefer-token-info: false
+      jwt:
+        key-uri: http://localhost:9999/oauth/token_key
